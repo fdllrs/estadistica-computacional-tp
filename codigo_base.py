@@ -148,7 +148,7 @@ def guardar_jsonl(filas, archivo):
 
 
 if __name__ == "__main__":
-    rng = np.random.default_rng(2026)   # cada grupo usa su propia semilla
+    rng = np.random.default_rng(4)   # cada grupo usa su propia semilla
     filas = []
 
     # 1) permutaciones uniformes, n = 100
